@@ -22,6 +22,12 @@ Use this one-liner to set up an IPsec VPN server:
 wget https://get.vpnsetup.net -O vpn.sh && sudo sh vpn.sh
 ```
 
+## Debian / Ubuntu / CentOS / Rocky / Alma
+
+```bash
+wget https://get.vpnsetup.net -O vpn.sh && bash vpn.sh
+```
+
 Your VPN login details will be randomly generated, and displayed when finished.
 
 **Optional:** Install [WireGuard](https://github.com/hwdsl2/wireguard-install) and/or [OpenVPN](https://github.com/hwdsl2/openvpn-install) on the same server.
